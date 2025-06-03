@@ -4,8 +4,16 @@ exports.main = main;
 exports.sobre = sobre;
 var readlinesync = require("readline-sync");
 var Colors_1 = require("./src/util/Colors");
+var Conta_1 = require("./src/model/Conta");
 function main() {
     var opcao;
+    // Objeto da Classe Conta (Teste)
+    var conta = new Conta_1.Conta(1, 123, 1, "Adriana", 10000);
+    conta.visualizar();
+    conta.sacar(10500);
+    conta.visualizar();
+    conta.depositar(5000);
+    conta.visualizar();
     while (true) {
         console.log(Colors_1.colors.bg.blackbright, Colors_1.colors.fg.magentastrong, "\n            *********************************************\n                      BANCO FREDDI MONEY                  \n            *********************************************\n\n                 1 - Criar conta\n                 2 - Listar todas as Contas\n                 3 - Buscar Conta por Numero\n                 4 - Atualizar dados da Conta\n                 5 - Apagar Conta\n                 6 - Sacar\n                 7 - Depositar\n                 8 - Transferir valores entre Contas\n                 9 - Sair\n\n            *********************************************          \n            ", Colors_1.colors.reset);
         console.log("Entre com a opção desejada");
