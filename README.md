@@ -1,4 +1,4 @@
-# 🏦 ContaBancariaJF: Sistema de Gerenciamento de Contas Bancárias (TypeScript + POO)
+# 🏦 Sistema de Gerenciamento de Contas Bancárias (TypeScript + POO)
 
 Este repositório apresenta o projeto **"Banco Freddi Money"**, uma aplicação de console desenvolvida em **TypeScript**. Este trabalho representa um marco importante na minha jornada de aprendizado, pois foi aqui que iniciei minha transição do JavaScript para o TypeScript, focando intensamente na **Programação Orientada a Objetos (POO)** e na utilização da **tipagem forte** para construir um código mais robusto e organizado.
 
